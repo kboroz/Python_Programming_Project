@@ -1,0 +1,101 @@
+Commands,Explanation
+"print(""Hello, World!"")","Prints ""Hello, World!"" to the console."
+x = 5,Assigns the value 5 to the variable x.
+if x > 0:,Checks if x is greater than 0.
+else:,Specifies a block of code to be executed if the condition is false.
+for i in range(10):,Iterates i from 0 to 9.
+while x > 0:,Repeats a block of code as long as x is greater than 0.
+def func():,Defines a function named func.
+return x,Returns the value of x from a function.
+class MyClass:,Defines a class named MyClass.
+self.x = x,Assigns x to the instance variable self.x within a class.
+import math,Imports the math module.
+from math import sqrt,Imports only the sqrt function from the math module.
+try:,Begins a block of code that will handle exceptions.
+except ValueError:,Catches exceptions of type ValueError.
+finally:,Executes code regardless of whether an exception occurred.
+"with open('file.txt', 'r') as f:",Opens a file and ensures it is properly closed after reading.
+f.read(),Reads the entire content of the file.
+"f.write(""Hello"")","Writes ""Hello"" to the file."
+"x = [1, 2, 3]","Creates a list with elements 1, 2, and 3."
+x.append(4),Appends 4 to the list x.
+"x = (1, 2, 3)","Creates a tuple with elements 1, 2, and 3."
+"x = {1, 2, 3}","Creates a set with elements 1, 2, and 3."
+x.add(4),Adds 4 to the set x.
+"x = {'a': 1, 'b': 2}",Creates a dictionary with keys 'a' and 'b' and values 1 and 2.
+x['c'] = 3,Adds a new key 'c' with value 3 to the dictionary x.
+del x['a'],Deletes the key 'a' from the dictionary x.
+len(x),Returns the length of x.
+x[1:3],Slices the list x from index 1 to 2.
+x[::-1],Reverses the list x.
+x.upper(),Converts the string x to uppercase.
+"x.split(',')",Splits the string x by commas.
+x.strip(),Removes leading and trailing whitespace from the string x.
+x = None,"Assigns None to x, representing a null value."
+"isinstance(x, int)",Checks if x is an instance of the int class.
+x = lambda y: y + 1,Creates an anonymous function that adds 1 to y.
+"map(func, x)",Applies func to each element in x.
+"filter(func, x)",Filters elements in x using the function func.
+"reduce(lambda x, y: x + y, x)",Reduces the list x by applying the function.
+x = [i for i in range(10)],Creates a list comprehension with numbers 0 to 9.
+x = {i: i*i for i in range(5)},Creates a dictionary comprehension with squares of numbers.
+sum(x),Returns the sum of elements in x.
+max(x),Returns the maximum element in x.
+min(x),Returns the minimum element in x.
+sorted(x),Returns a sorted list of x.
+x.sort(),Sorts the list x in place.
+reversed(x),Returns a reversed iterator for x.
+enumerate(x),Returns an enumerate object for x.
+"zip(x, y)",Aggregates elements from x and y into tuples.
+all(x),Returns True if all elements in x are true.
+any(x),Returns True if any element in x is true.
+x & y,Returns the bitwise AND of x and y.
+`x,y`
+x ^ y,Returns the bitwise XOR of x and y.
+~x,Returns the bitwise NOT of x.
+x << 2,Shifts x left by 2 bits.
+x >> 2,Shifts x right by 2 bits.
+assert x > 0,Raises an AssertionError if the condition is false.
+global x,Declares x as a global variable.
+nonlocal x,Declares x as a nonlocal variable.
+@decorator,Defines a decorator function.
+yield x,Pauses a generator and returns x.
+next(generator),Retrieves the next value from a generator.
+x = 5 if y > 2 else 3,"Ternary operator that assigns 5 to x if y > 2, else 3."
+*args,Captures variable positional arguments in a function.
+**kwargs,Captures variable keyword arguments in a function.
+from collections import Counter,Imports the Counter class from the collections module.
+Counter(x),Counts the elements in x.
+from itertools import permutations,Imports permutations from the itertools module.
+permutations(x),Returns all possible permutations of x.
+from functools import lru_cache,Imports lru_cache from the functools module.
+@lru_cache(maxsize=32),Caches the results of a function for faster future calls.
+import numpy as np,Imports the numpy library as np.
+"np.array([1, 2, 3])","Creates a NumPy array with elements 1, 2, and 3."
+np.mean(x),Returns the mean of array x.
+np.median(x),Returns the median of array x.
+np.std(x),Returns the standard deviation of array x.
+import pandas as pd,Imports the pandas library as pd.
+pd.DataFrame(data),Creates a DataFrame from data.
+df.head(),Returns the first five rows of DataFrame df.
+df.describe(),Returns summary statistics of DataFrame df.
+df['column'],Accesses the 'column' of DataFrame df.
+"df.drop('column', axis=1)",Drops the 'column' from DataFrame df.
+import matplotlib.pyplot as plt,Imports the matplotlib.pyplot library as plt.
+"plt.plot(x, y)",Plots x and y data points.
+plt.show(),Displays the plot.
+import seaborn as sns,Imports the seaborn library as sns.
+sns.heatmap(data),Creates a heatmap from data.
+import requests,Imports the requests library for HTTP requests.
+requests.get(url),Sends a GET request to url.
+response.json(),Parses the JSON response from response.
+import re,Imports the re module for regular expressions.
+"re.search(pattern, string)",Searches string for a match to pattern.
+"re.findall(pattern, string)",Finds all matches of pattern in string.
+"re.sub(pattern, repl, string)",Replaces pattern with repl in string.
+import os,Imports the os module for operating system interfaces.
+os.listdir(path),Lists the files and directories in path.
+"os.path.join(dir, file)",Joins dir and file into a single path.
+import sys,Imports the sys module for system-specific parameters.
+sys.argv,Returns the list of command line arguments.
+sys.exit(),Exits from Python.
