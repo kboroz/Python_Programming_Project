@@ -12,6 +12,7 @@ We decided to start with:
 4. improve the codes for a better user experience.
  
 What did you try / did not work / can be improved upon?
+
 We used Colab for the main code developemnt and sharing, it works for the basic codes.
 However, when we needed to add in the GUI, Colab was not able to run the code as we need to organize the code or modified it.
 We needed to use VScode or created virtual environment with all the installed dependencies to run the GUI code.
