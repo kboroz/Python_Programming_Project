@@ -8,7 +8,7 @@ The main goal of the project is to equip students with Python programming skills
 We decided to start with:
 1. Discuss about what functions we want the Flashcards app to have.
 2. Come up with a flow chart for the program.
-3. Come out with some sets of basic codes.
+3. Come up with some sets of basic codes.
 4. Add in graphic user interface (GUI).
 5. Improve the codes for a better user experience.
 
